@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кошелек</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f4f8;
+            text-align: center;
+        }
+        .wallet {
+            padding: 50px;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            background-color: #fff;
+            width: 300px;
+            margin: 0 auto;
+        }
+        .balance {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<div class="wallet">
+    <div class="balance">
+        Ваш баланс: <br>
+        <strong>100 000 000 BTC</strong>
+        <br><br>
+        <span>Ваши средства на пути к Илону Маску!</span>
+    </div>
+    <button class="button" onclick="showMessage()">Вывести средства</button>
+</div>
+
+<script>
+    function showMessage() {
+        alert("Ошибка: недостаточно кармы для завершения транзакции.");
+    }
+</script>
+
+</body>
+</html>
